@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,14 +33,15 @@ html, button {
 h1, h2 {
   font-family: "Syne", sans-serif;
 }
+
 h1 {
-  font: var(--text-xl);
+  font-size: var(--text-xl);
   line-height: 1.25;
 }
 
 h2 {
-  font: var(--text-lg);
-  line-height: 1.20;
+  font-size: var(--text-lg);
+  line-height: 1.2;
 }
 
 a {
