@@ -125,7 +125,7 @@ section.hero {
       bottom: 35%;
 
       transform: translateX(400%);
-      animation: slideId 2.2s 800ms ease forwards;
+      animation: slideIn 2.2s 800ms ease forwards;
     }
   }
 }
